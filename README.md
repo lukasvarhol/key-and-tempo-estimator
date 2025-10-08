@@ -12,26 +12,25 @@ pip install spotipy yt-dlp librosa numpy python-dotenv ffmpeg-python
 
 ### 3. Install FFmpeg
 
-    macOS: ```brew install ffmpeg```
+- macOS: `brew install ffmpeg`
 
-    Linux: ```sudo apt install ffmpeg```
+- Linux: `sudo apt install ffmpeg`
 
-    Windows: Download from ffmpeg.org and add to PATH
+- Windows: Download from ffmpeg.org and add to PATH
 
 ### 4. Spotify Developer Setup
 
-    Go to Spotify Developer Dashboard
+- Go to Spotify Developer Dashboard
 
-    Create a new app
+- Create a new app
 
-    Copy Client ID and Client Secret
+- Copy Client ID and Client Secret
 
 ### 5. Environment File
 
 Create .env file:
 ```yml
-#env
-
+#.env
 SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
 ```
