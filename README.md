@@ -31,6 +31,6 @@ pip install spotipy yt-dlp librosa numpy python-dotenv ffmpeg-python
 Create .env file:
 ```yml
 #.env
-SPOTIFY_CLIENT_ID=your_client_id_here
-SPOTIFY_CLIENT_SECRET=your_client_secret_here
+SPOTIFY_CLIENT_ID="your_client_id_here"
+SPOTIFY_CLIENT_SECRET="your_client_secret_here"
 ```
