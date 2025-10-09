@@ -7,7 +7,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 2. Install Dependencies
 ```bash
 
-pip install spotipy yt-dlp librosa numpy python-dotenv ffmpeg-python
+pip install spotipy yt-dlp librosa numpy python-dotenv ffmpeg-python matplotlib
 ```
 
 ### 3. Install FFmpeg
