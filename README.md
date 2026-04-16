@@ -1,3 +1,15 @@
+# Music Key Detection — DSP Pipeline
+A signal processing pipeline for estimating the musical key of a track from a Spotify track ID. The pipeline downloads audio, performs harmonic-percussive source separation (HPSS), extracts chroma features using a Constant-Q Transform, and correlates against Krumhansl-Kessler key profiles to estimate the most likely major or minor key.
+Pipeline:
+
+Audio retrieval via Spotify API and yt-dlp
+Harmonic-percussive separation using median filtering on the STFT
+Chroma CQT feature extraction with tuning correction
+Beat-synchronous chroma aggregation
+Correlation against major and minor key templates (Krumhansl & Kessler, 1982)
+Predominant pitch histogram via pYIN pitch estimation
+
+## Setup:
 ### 1. Create Virtual Environment
 ```bash
 python -m venv venv
